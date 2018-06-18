@@ -1,0 +1,3 @@
+// Vendors
+
+// import 'babel-polyfill'
