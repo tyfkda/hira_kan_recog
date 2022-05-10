@@ -3,7 +3,6 @@ import path from 'path'
 module.exports = {
   mode: 'production',
   entry: {
-    vendors: ['./src/vendors.ts'],
     main: './src/main.ts',
   },
   output: {
