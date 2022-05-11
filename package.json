@@ -39,6 +39,7 @@
     "@babel/core": "~7.17.9",
     "@babel/preset-env": "~7.16.11",
     "@babel/register": "~7.17.7",
+    "@tensorflow/tfjs": "~3.16.0",
     "@types/jest": "~27.4.1",
     "@types/node": "~17.0.25",
     "@typescript-eslint/eslint-plugin": "~5.20.0",
