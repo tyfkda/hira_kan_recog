@@ -1,9 +1,11 @@
 # Node
-/node_modules
-/npm-debug.log
+node_modules
+npm-debug.log
 
 # Generated files
-/public
-/release
+/app/public
+/app/release
 
 package-lock.json
+
+*.zip
