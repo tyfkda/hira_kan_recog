@@ -7,5 +7,9 @@ npm-debug.log
 /app/release
 
 package-lock.json
+Gemfile.lock
 
+*.npz
 *.zip
+
+/tools/images
