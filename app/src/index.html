@@ -9,13 +9,20 @@
     <script src="assets/main.js"></script>
   </head>
   <body>
-    <div style="width:100%; height:100%; overflow:hidden">
-      <canvas id="mycanvas" style="display:block; cursor:crosshair"></canvas>
+    <div id="mycanvas-holder">
+      <canvas id="mycanvas"></canvas>
     </div>
-    <div class="status">
-      <canvas id="mini" class="mini pixelated" width="48" height="48"></canvas>
+    <div id="status" class="status" style="display:none">
+      <canvas id="mini" class="mini pixelated" style="display: none"></canvas>
       <div>
-        <input id="clear" type="button" value="Clear"></input>
+        <div class="result">
+          <div id="result1-row" class="result-row"><div class="result-chr"></div><div class="result-percent"></div></div>
+          <div id="result2-row" class="result-row"><div class="result-chr"></div><div class="result-percent"></div></div>
+          <div id="result3-row" class="result-row"><div class="result-chr"></div><div class="result-percent"></div></div>
+          <div id="result4-row" class="result-row"><div class="result-chr"></div><div class="result-percent"></div></div>
+          <div id="result5-row" class="result-row"><div class="result-chr"></div><div class="result-percent"></div></div>
+        </div>
+        <input id="clear" type="button" value="Clear" style="pointer-events:auto"></input>
       </div>
     </div>
   </body>
