@@ -12,4 +12,6 @@ Gemfile.lock
 *.npz
 *.zip
 
+/tools/ETL*
+/tools/data
 /tools/images
