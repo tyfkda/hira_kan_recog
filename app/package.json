@@ -13,6 +13,7 @@
     "lint": "gulp lint",
     "lint:fix": "eslint --fix src/**/*.ts",
     "release": "gulp release",
+    "deploy": "./deploy.sh",
     "clean": "gulp clean"
   },
   "author": "tyfkda",

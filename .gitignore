@@ -12,6 +12,7 @@ Gemfile.lock
 *.npz
 *.zip
 
+/app/res
 /gh-pages
 /tools/ETL*
 /tools/data
