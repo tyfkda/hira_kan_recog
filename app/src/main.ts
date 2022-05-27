@@ -241,5 +241,13 @@ window.addEventListener('load', async () => {
   const path = 'assets/tfjsmodel/model.json'
   const model = await tf.loadGraphModel(path)
 
+  const inputShape = model.inputs[0].shape!
+  const warmupResult = model.predict(tf.zeros([1].concat(inputShape.slice(1)))) as tf.Tensor
+  warmupResult.dataSync()
+  warmupResult.dispose()
+
+  const loading = document.getElementById('loading')!
+  loading.parentNode?.removeChild(loading)
+
   new App(model)
 })

@@ -1,8 +1,25 @@
-body {
+html, body {
   margin: 0;
   overflow: hidden;
   width: 100%;
   height: 100%;
+}
+
+.full-size {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .pixelated {
