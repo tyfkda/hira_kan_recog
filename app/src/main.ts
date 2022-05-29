@@ -26,7 +26,6 @@ function setMouseDragListener(mouseMove: any, mouseUp?: (e)=>void, useCapture?: 
   }
 
   const mouseLeaveDelegate = (mouseLeave == null ? null : ($event) => {
-console.log('mouseLeave!')
     if (mouseLeave!($event))
       unlisten()
   })
